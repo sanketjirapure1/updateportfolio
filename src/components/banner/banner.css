@@ -1,0 +1,13 @@
+h1.text-6xl.font-bold.text-white.fontstyle {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+}
+/* .font-bold {
+    font-weight: 500;
+    font-family: monospace;
+} */
+
+.text-designColor {
+    --tw-text-opacity: 1;
+    color: #df0bfc; 
+}

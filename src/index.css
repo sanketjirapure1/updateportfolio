@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bannerIcon {
+    @apply w-16 h-16 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all  cursor-pointer duration-300;
+  }
+  .resumeLi {
+    @apply w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-none;
+  }
+  .bgOpacity {
+    @apply bg-black bg-opacity-40;
+  }
+  .contactInput {
+    @apply w-full h-12 rounded-lg border-b-[1px] border-b-gray-600 bg-[#6931df] text-lightText px-4 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300;
+  }
+  .contactTextArea {
+    @apply w-full rounded-lg border-b-[1px] border-b-gray-600 bg-[#6931df] text-lightText px-4 py-2 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300 resize-none;
+  }
+}
+
+.active {
+  color: #ae45ff !important;
+  font-weight: 600;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.resumeLi {
+  display: flex;
+  height: 3.5rem;
+  width: 100%;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px;
+  border-width: 1px;
+  background-color: #1c1c1c !important;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: #ae45ff !important;
+  transition-duration: 300ms;
+}
+.border-designColor {
+  --tw-border-opacity: 1;
+  border-color: #ae45ff !important;
+  color: #ae45ff !important;
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: white !important;
+}
+
+.text-designColor {
+  --tw-text-opacity: 1;
+  color: #ae45ff !important;
+  font-weight: 500;
+}
+.sjcss {
+  color: #ae45ff !important;
+  width: 100px;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.hover\:text-designColor:hover {
+  --tw-text-opacity: 1;
+  color: #ae45ff !important;
+  font-weight: 700 !important;
+}
+
+.bannerIcon:hover {
+  color: rgb(255, 1, 79);
+}
+.bannerIcon {
+  display: inline-flex;
+  height: 4rem;
+  width: 4rem;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.375rem;
+  background-color: #2d2a2f !important;
+  --tw-bg-opacity: 0.25;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
+  --tw-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+  --tw-shadow: 10px 10px 19px #0d0d0d, -10px -10px 19px #101010;
+  --tw-shadow-colored: 10px 10px 19px var(--tw-shadow-color),
+    -10px -10px 19px var(--tw-shadow-color);
+}
+.shadow-shadowOne {
+  --tw-shadow: 10px 10px 19px #292626c7, -10px -10px 19px #131313 !important;
+  --tw-shadow-colored: none !important;
+  /* --tw-shadow: 35px 20px #292626c7, -10px -10px 19px #131313 !important;
+    --tw-shadow-colored: none !important; */
+}
+
+.hover\:from-gray-900:hover {
+  --tw-gradient-from: #451c67 !important;
+}
+
+.border-b-black {
+  --tw-border-opacity: 1;
+  border-bottom-color: #312f32;
+}
+/* top banner section css */
+
+/* project sectioncss */
+
+.from-\[\#1e2024\] {
+  --tw-gradient-from: #1e2024;
+  --tw-gradient-to: rgb(30 32 36 / 0);
+  --tw-gradient-stops: #7610a9, #8016b5 !important;
+  border-radius: 388px 684px 467px 819px !important;
+  width: 100%;
+}
+
+.bg-bodyColor {
+  --tw-bg-opacity: 1;
+  background-color: #0e0e0f !important;
+}
+
+/* contact section css */
+.contactInput {
+  height: 3rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border-bottom-width: 1px;
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(75 85 99 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: white !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  --tw-text-opacity: 1;
+  color: black !important;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  transition-duration: 300ms;
+}
+
+.contactTextArea {
+  width: 100%;
+  resize: none;
+  border-radius: 0.5rem;
+  border-bottom-width: 1px;
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(75 85 99 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: white !important;
+  color: black !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(196 207 222 / var(--tw-text-opacity));
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  transition-duration: 300ms;
+}
+.contactTextArea:focus-visible {
+  border-bottom-color: transparent;
+  outline-color: #df0bfc !important;
+}
+.contactInput:focus-visible {
+  border-bottom-color: transparent;
+  outline-color: #df0bfc !important;
+}
+
+.from-\[\#1e2025\] {
+  --tw-gradient-from: #212121;
+  --tw-gradient-to: rgb(30 32 36 / 0);
+  --tw-gradient-stops: #333134, #181818 !important;
+}
+
+.w-full.bg-blackk.bg-opacity-20.hover\:bg-opacity-30.duration-300.rounded-lg.p-4.lgl\:px-10.flex.flex-col.justify-center.gap-6.lgl\:gap-10.shadow-shadowOne {
+  background-color: #252424 !important;
+}
+
+span.absolute.w-5.h-5.rounded-full.-top-2.-left-3.flex.justify-center.items-center.bg-blackk.bg-opacity-60 {
+  background-color: #2d2929;
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.border-l-black {
+  --tw-border-opacity: 1;
+  border-left-color: #3c3b3b;
+}
+
+.bgOpacity {
+  background-color: #3d3c3e;
+  --tw-bg-opacity: 0.4;
+}
+.px-4 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.bg-\[\#141518\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 21 24 / var(--tw-bg-opacity));
+  color: #ae45ff !important;
+}
+.hover\:border-designColor:hover {
+  --tw-border-opacity: 1;
+  border-color: #df0bfc !important;
+}
