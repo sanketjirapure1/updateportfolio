@@ -4,6 +4,8 @@ import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { navLinksdata } from "../../constants";
 
+
+/// sanket
 const Navbar = () => {
  const [showMenu, setShowMenu] = useState(false);
   return (
